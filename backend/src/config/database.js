@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const connectDB = () => {
-  const dbURI = 'mongodb+srv://veehive:veehive@atlascluster.0ktshci.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster';
+  const dbURI = '';
 
   return mongoose.connect(dbURI, {
     useNewUrlParser: true,
